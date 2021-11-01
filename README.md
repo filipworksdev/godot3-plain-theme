@@ -2,17 +2,17 @@
 
 This theme changes the look of Godot Editor itself. 
 
-Is a Complete modification of Jay7c/jc.godot.plane-editor-theme. 
+This is a Complete modification of Jay7c/jc.godot.plane-editor-theme
 - Tested using Godot 3.4 rc1
 
-This repo also includes the 2 fonts I am using in the look below 
+This repo also includes the 2 fonts I used in the look below 
 - pixelfont.ttf is made by me and has a special license check under fonts/ folder
-- ubuntu.ttf was not made by me and is a monospace libre font that I used as code font in the look below
+- ubuntu.ttf was not made by me and is a monospace libre font that I used as a code font
 
-Also in the package you will find godot3-classic.tet. 
-- This gives a more classic Godot 3 look of the text editor code style. For example in recent Godot versions if, elif, else became their own colors for example all keywords used to be just red and this style brings back the original behavior making all keywords red.
-- The node operator $ used to be blue and rest of node path following was gray but this is no longer possible so I made all $nodepath a more subdued brown since blue looked too jarring
-- I also changed the code line colors to be less pronounced
+Also in the package you will find godot3-classic.tet which is for the Script text editor
+- This gives a more classic Godot 3 look of the text editor code style. For example in recent Godot versions if, elif, else became their own colors and this style brings back the original look making all keywords same red color.
+- The node operator $ used to be blue and rest of node path following was gray but this is no longer possible so I made all $nodepath a more subdued brown since blue and default green looked too jarring
+- I also changed the code line text color to a more subdued gray
 
 --------------------------------------------------
 
