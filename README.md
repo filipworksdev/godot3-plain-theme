@@ -1,16 +1,16 @@
-# Godot 3 Simple Theme
+# Godot 3 Simple Theme + Godot 3 Classic text editor theme
 
 This theme changes the look of Godot Editor itself. 
 
-This is a Complete modification of Jay7c/jc.godot.plane-editor-theme. 
-- Tested using Godot 3.4 rc2
+Is a Complete modification of Jay7c/jc.godot.plane-editor-theme. 
+- Tested using Godot 3.4 rc1
 
-This also includes the 2 fonts I am using in the look below 
-- pixelfont is made by me and has a special license check under fonts/
-- ubuntu is a monospace libre font that i use for my script since is smooth and readable
+This repo also includes the 2 fonts I am using in the look below 
+- pixelfont.ttf is made by me and has a special license check under fonts/ folder
+- ubuntu.ttf was not made by me and is a monospace libre font that I used as code font in the look below
 
 Also in the package you will find godot3-classic.tet. 
-- This gives a more classic Godot 3 look of the text editor code style using before things like if, elif, else became their own colors for example all keywords used to be just red. 
+- This gives a more classic Godot 3 look of the text editor code style. For example in recent Godot versions if, elif, else became their own colors for example all keywords used to be just red and this style brings back the original behavior making all keywords red.
 - The node operator $ used to be blue and rest of node path following was gray but this is no longer possible so I made all $nodepath a more subdued brown since blue looked too jarring
 - I also changed the code line colors to be less pronounced
 
@@ -18,14 +18,20 @@ Also in the package you will find godot3-classic.tet.
 
 ## Changes 
 
+- Removes all the new blue checkmarks, radio buttons and switches (the sliders are still blue)
 - Removes the forced blue accents allowing the color accent you defined in Editor settings to show though
 - Fixed a lot of issues with inconsistent styles such as (tabs, tab container and debugger tabs and others)
 - Most editor items are consistent and a show a gray background when selected (includes menu items, trees, editor and project settings, inspector properties, tabs and others)
 - Removed all the forced fonts
 - Fixed all the blue accents for vertical and horizontal scrollbars 
-- There is still an issue present with the sliders
-- Feel free to report any issues or improvements here
+
+--------------------------------------------------
+
+## Known Issues
+
+- There is still an issue present with the sliders look off and use the new forced blue accented highlights.
 - Changing borders from Editor settings doesn't work correctly with this theme (is both by design since it aims to be minimal and by limitation of the theme system because I cannot set border color to the chosen color accent I either set no borders or just gray) 
+- Feel free to report any issues or suggestions in this repo
 
 --------------------------------------------------
 
